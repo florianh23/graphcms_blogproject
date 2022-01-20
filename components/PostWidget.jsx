@@ -18,7 +18,7 @@ const PostWidget = ({categories, slug}) => {
 
     console.log(relatedPosts);
     return (
-        <div className="shadowlayered rounded-lg p-8">
+        <div className="rounded-lg p-8">
             <h3 className="text-xl mb-8  border-b pb-4 text-center">
                 {slug ? "Ähnliche Artikel" : "Neue Artikel"}
             </h3>

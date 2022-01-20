@@ -13,7 +13,7 @@ const Categories = () => {
     },[]);
     
     return(
-        <div className="shadowlayered rounded-lg p-8 pb-12">
+        <div className=" rounded-lg p-8 pb-12">
             <h3 className="text-xl mb-8  border-b pb-4 text-center">
                 Kategorien
             </h3>

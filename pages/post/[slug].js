@@ -22,7 +22,7 @@ const PostDetails = ( {post}) => {
 
                 </div>
                 <div className="col-span-1 lg:col-span-4">
-                    <div className="relative lg-sticky">
+                    <div className="relative lg-sticky shadowlayered rounded-lg">
                         <PostWidget slug={post.slug} categories={post.categories.map((category) => category.slug)}/>
                         <Categories/>
                     </div>
